@@ -1,16 +1,16 @@
+import React from "react";
 import './App.css';
-import Button from './components/Button';
-import NavbarElements from './components/Navbar';
+import {BrowserRouter as Router,Route,Routes} from "react-router"
+import Home from './components/Pages/Home'
+import Contactus from './components/Pages/Contactus'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <NavbarElements/>
-      <h1>OUR BUILDINGS INTEGRATE BEST COSY HOMES</h1>
-      <Button/>
-    </div>
-  );
+      <Routes>
+          <Route path="/" element={<Home/>}/> 
+          <Route path="/contactus" element={<Contactus/>}/>
+        </Routes>
+  )
 }
 
-
-export default App;
+export default App

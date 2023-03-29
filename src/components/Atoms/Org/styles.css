@@ -1,27 +1,16 @@
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: cornflowerblue;
-    padding: 20px 80px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    
-} 
-
-
-#navbar {
+.org {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#navbar li {
+.org li {
     padding: 0 20px;
     position: relative;
     list-style: none;
 }
 
-#navbar li a{
+.org li a{
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
@@ -29,6 +18,6 @@ nav{
     
 }
 
-#navbar li a:hover{
+.ord li a:hover{
     color: navy;
 }
