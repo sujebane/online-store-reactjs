@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const Text = ({content}) => {
+export const Text = ({content,style}) => {
   return (
-    <div className='font-sans mx-96 text-center my-9'>{content}</div>
+    <div className={style}>{content}</div>
   )
 }
 export default Text

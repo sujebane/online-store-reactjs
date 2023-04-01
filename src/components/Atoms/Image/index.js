@@ -1,9 +1,9 @@
 import React from 'react'
-import LandingBackground from '../../../assets/image/businesslp.jpg'
+import LandingImage from '../../../assets/image/businesslp.jpg'
 const Image = () => {
   return (
-    <div className='mx-44 my-24'>
-      <img src={LandingBackground} alt=""/>
+    <div className='mx-36 my-14 h-screen'>
+      <img src={LandingImage} alt=""/>
     </div>
   )
 }

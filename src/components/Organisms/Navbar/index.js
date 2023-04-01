@@ -5,16 +5,16 @@ import {Link} from "react-router-dom"
 
 export const NavBar = () => {
   const button = [
-    {buttonname:"Pricing"},
-    {buttonname:"About"},
-    {buttonname:"Learn"},
-    {buttonname:"Corporate"},
-    {buttonname:"News"},
-    {styles:"border-solid rounded-2xl border-2 border-stone-400 mx-28", buttonname:"Contatct Us"}
+    {styles:"pt-3.5",buttonname:"Pricing"},
+    {styles:"pt-3.5",buttonname:"About"},
+    {styles:"pt-3.5",buttonname:"Learn"},
+    {styles:"pt-3.5",buttonname:"Corporate"},
+    {styles:"pt-3.5 pr-10",buttonname:"News"},
+    {styles:"border-solid rounded-full px-8 border-2 border-stone-400 p-2", buttonname:"Contatct Us"}
   ];
   return (
     <nav>
-      <div className='flex items-stretch gap-x-20 p-8'>
+      <div className='flex items-stretch gap-x-20 p-4 align-middle'>
       <Link to="/"><Org/></Link>
       {button.map((button)=><Button buttonname={button.buttonname} styles={button.styles}/>)}</div>
     </nav>  
