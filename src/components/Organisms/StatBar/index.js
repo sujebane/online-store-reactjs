@@ -9,7 +9,7 @@ export const StatBar = () => {
     { heading: "58K", sublabel: "Trusted by Company" },
   ];
   return (
-    <div className="flex items-stretch py-4 mx-60 gap-x-20">
+    <div className="flex items-stretch py-4 mx-60 my-36 gap-x-20">
       {statistics.map((stats)=><Statistics heading={stats.heading} sublabel={stats.sublabel}/>)}
  
     </div>

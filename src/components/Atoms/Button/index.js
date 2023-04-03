@@ -1,9 +1,10 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
-const Button = ({styles,buttonname}) => {
+const Button = ({styles,buttonname,onClick}) => {
   return (
-    <div className={styles}>{buttonname}</div>
+    <div className={styles}><Link to={onClick}>{buttonname}</Link></div>
   )
 }
-
+{/* <Link to="/learn"><Learn/></Link> */}
 export default Button
