@@ -6,5 +6,5 @@ const Button = ({styles,buttonname,onClick}) => {
     <div className={styles}><Link to={onClick}>{buttonname}</Link></div>
   )
 }
-{/* <Link to="/learn"><Learn/></Link> */}
+
 export default Button
